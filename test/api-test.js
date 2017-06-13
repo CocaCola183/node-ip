@@ -404,4 +404,10 @@ describe('IP library for node.js', function() {
       assert.equal(ip.fromLong(4294967295), '255.255.255.255');
     });
   })
+
+  describe('all() method', function() {
+    it('should repond with all network interfaces', function() {
+      
+    });
+  })
 });
